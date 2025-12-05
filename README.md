@@ -1,0 +1,1 @@
+Los archivos en data/raw fueron descargados desde https://censo2024.ine.gob.cl/resultados/
