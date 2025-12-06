@@ -1,0 +1,463 @@
+{
+    "area": {
+        "1": "Urbano",
+        "2": "Rural"
+    },
+    "tipo_operativo": {
+        "1": "Persona en situaci\u00f3n de calle",
+        "2": "Vivienda particular",
+        "3": "Vivienda colectiva"
+    },
+    "parentesco": {
+        "1": "Jefe/a de hogar",
+        "2": "Esposo/a o c\u00f3nyuge",
+        "3": "Conviviente por uni\u00f3n civil",
+        "4": "Conviviente de hecho o pareja",
+        "5": "Hijo/a",
+        "6": "Hijo/a del c\u00f3nyuge, conviviente o pareja",
+        "7": "Hermano/a",
+        "8": "Padre/Madre",
+        "9": "Cu\u00f1ado/a",
+        "10": "Suegro/a",
+        "11": "Yerno/Nuera",
+        "12": "Nieto/a",
+        "13": "Abuelo/a",
+        "14": "Otro Pariente",
+        "15": "No Pariente",
+        "16": "Servicio dom\u00e9stico puertas adentro",
+        "17": "Persona en vivienda colectiva",
+        "19": "Persona en operativo calle"
+    },
+    "sexo": {
+        "1": "Hombre",
+        "2": "Mujer"
+    },
+    "edad": {
+        "0:85": "V\u00e1lidos",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "edad_quinquenal": {
+        "0": "0-4",
+        "5": "5-9",
+        "10": "10-14",
+        "15": "15-19",
+        "20": "20-24",
+        "25": "25-29",
+        "30": "30-34",
+        "35": "35-39",
+        "40": "40-44",
+        "45": "45-49",
+        "50": "50-54",
+        "55": "55-59",
+        "60": "60-64",
+        "65": "65-69",
+        "70": "70-74",
+        "75": "75-79",
+        "80": "80-84",
+        "85": "85 o m\u00e1s"
+    },
+    "p23_est_civil": {
+        "1": "Casado/a",
+        "2": "Conviviente o pareja sin acuerdo de uni\u00f3n civil",
+        "3": "Conviviente civil (con acuerdo de uni\u00f3n civil)",
+        "4": "Anulado/a",
+        "5": "Separado/a",
+        "6": "Divorciado/a",
+        "7": "Viudo/a",
+        "8": "Soltero/a",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p24_lug_resid5": {
+        "1": "A\u00fan no nac\u00eda",
+        "2": "En esta comuna",
+        "3": "En otra comuna",
+        "4": "En otro pa\u00eds",
+        "-99": "No respuesta"
+    },
+    "p24_lug_resid5_esp": {
+        "2:16305": "Ver diccionario c\u00f3digos territoriales espec\u00edficos",
+        "-99": "No respuesta en pa\u00eds de residencia hace 5 a\u00f1os",
+        "null": "No aplica",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "p25_lug_nacimiento": {
+        "1": "En esta comuna",
+        "2": "En otra comuna",
+        "3": "En otro pa\u00eds",
+        "-99": "No respuesta"
+    },
+    "p25_lug_nacimiento_rec": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta"
+    },
+    "p25_lug_nacimiento_esp": {
+        "2:16305": "Ver diccionario c\u00f3digos territoriales espec\u00edficos",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "p26_llegada_periodo": {
+        "1": "Entre 2023 y 2024",
+        "2": "Entre 2020 y 2022",
+        "3": "Entre 2017 y 2019",
+        "4": "Entre 2014 y 2016",
+        "5": "Entre 2010 y 2013",
+        "6": "Entre 2000 y 2009",
+        "7": "Entre 1990 y 1999",
+        "8": "Antes de 1990",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p27_nacionalidad": {
+        "1": "Chilena (exclusivamente)",
+        "2": "Chilena y otra (doble nacionalidad)",
+        "3": "Otra nacionalidad",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "p27_nacionalidad_esp": {
+        "2:862": "Ver diccionario c\u00f3digos territoriales espec\u00edficos",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "p27_nacionalidad_rec": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta"
+    },
+    "p28_autoid_pueblo": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta"
+    },
+    "p28_pueblo_pert": {
+        "1": "Mapuche",
+        "2": "Aymara",
+        "3": "Rapa Nui",
+        "4": "Atacame\u00f1o o Lickanantay",
+        "5": "Quechua",
+        "6": "Colla",
+        "7": "Diaguita",
+        "8": "Kaw\u00e9sqar",
+        "9": "Yag\u00e1n",
+        "10": "Chango",
+        "11": "Selknam",
+        "12": "Otro",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "p29_afrodescendencia": {
+        "1": "Afrodescendiente",
+        "2": "Afrochileno/a",
+        "3": "Negro/a",
+        "4": "Del Pueblo Tribal Afrodescendiente Chileno",
+        "5": "Moreno/a de Azapa",
+        "6": "Negro/a de la Chimba",
+        "7": "Ninguna de las anteriores",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n"
+    },
+    "p29_afrodescendencia_rec": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta"
+    },
+    "p30_lengua_indigena": {
+        "1": "Mapuzug\u00fan (lengua mapuche)",
+        "2": "Aymara",
+        "3": "Quechua",
+        "4": "Rapa Nui",
+        "5": "Ckunza",
+        "6": "Kaw\u00e9sqar",
+        "7": "Yag\u00e1n",
+        "8": "Otra lengua ind\u00edgena de Chile",
+        "9": "No habla ni entiende ninguna lengua ind\u00edgena de Chile",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "p30_lengua_indigena_rec": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p31_religion": {
+        "1": "Cat\u00f3lica",
+        "2": "Evang\u00e9lica o Protestante",
+        "5": "Iglesia de Jesucristo de los Santos de los \u00daltimos D\u00edas",
+        "10": "Testigo de Jehov\u00e1",
+        "12": "Ninguna",
+        "999": "Otra religi\u00f3n o credo",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "p31_religion_rec": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32a_dificultad_ver": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32b_dificultad_oir": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32c_dificultad_mover": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32d_dificultad_cogni": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32e_dificultad_cuidado": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p32f_dificultad_comunic": {
+        "1": "No, sin dificultad",
+        "2": "S\u00ed, algo de dificultad",
+        "3": "S\u00ed, mucha dificultad",
+        "4": "No puede hacerlo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "discapacidad": {
+        "1": "Con discapacidad",
+        "2": "Sin discapacidad",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p33_edu_asiste": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta"
+    },
+    "asistencia_parv": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "asistencia_basica": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "asistencia_media": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "asistencia_superior": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "p37_alfabet": {
+        "1": "S\u00ed",
+        "2": "No",
+        "-99": "No respuesta",
+        "null": null
+    },
+    "escolaridad": {
+        "0:24": "V\u00e1lidos",
+        "-99": "No respuesta"
+    },
+    "cine11": {
+        "1": "01: Nunca curs\u00f3 un programa educativo",
+        "2": "02: Educaci\u00f3n de la primera infancia (incluye la forma parcial)",
+        "3": "03: Primaria en forma parcial (sin conclusi\u00f3n del nivel)",
+        "4": "10: Educaci\u00f3n primaria (nivel 1)",
+        "5": "14: Educaci\u00f3n primaria (nivel 2), con orientaci\u00f3n general",
+        "6": "24: Educaci\u00f3n secundaria, con orientaci\u00f3n general",
+        "7": "25: Educaci\u00f3n secundaria, con orientaci\u00f3n vocacional",
+        "8": "35: Educaci\u00f3n terciaria de ciclo corto, con orientaci\u00f3n vocacional",
+        "9": "46: Grado de educaci\u00f3n terciaria o nivel equivalente, con orientaci\u00f3n no especificada",
+        "10": "56: Nivel de maestr\u00eda, especializaci\u00f3n o equivalente, con orientaci\u00f3n no especificada",
+        "11": "64: Nivel de doctorado o equivalente, con orientaci\u00f3n acad\u00e9mica",
+        "12": "98: Educaci\u00f3n especial o diferencial",
+        "-99": "No respuesta"
+    },
+    "sit_fuerza_trabajo": {
+        "1": "Ocupado",
+        "2": "Desocupado",
+        "3": "Fuera de la fuerza de trabajo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p40_cise_rec": {
+        "1": "Independiente",
+        "2": "Dependiente",
+        "3": "Trabajador/a familiar o personal no remunerado en un negocio de un integrante de su familia",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "depend_econ_deficit_hab": {
+        "1": "Econ\u00f3micamente independiente",
+        "2": "Econ\u00f3micamente dependiente",
+        "-99": "No respuesta"
+    },
+    "cod_ciuo": {
+        "1": "Directores, gerentes y administradores",
+        "2": "Profesionales, cient\u00edficos e intelectuales",
+        "3": "T\u00e9cnicos y profesionales de nivel medio",
+        "4": "Personal de apoyo administrativo",
+        "5": "Trabajadores de los servicios y vendedores de comercios y mercados",
+        "6": "Agricultores y trabajadores calificados agropecuarios, forestales y pesqueros",
+        "7": "Artesanos y operarios de oficios",
+        "8": "Operadores de instalaciones, m\u00e1quinas y ensambladores",
+        "9": "Ocupaciones elementales",
+        "0": "Ocupaciones de las fuerza armadas",
+        "999": "Respuesta no codificable",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "cod_caenes": {
+        "A": "Agricultura, ganader\u00eda, silvicultura y pesca",
+        "B": "Explotaci\u00f3n de minas y canteras",
+        "C": "Industrias manufactureras",
+        "D": "Suministro de electricidad, gas, vapor y aire acondicionado",
+        "E": "Suministro de agua; evacuaci\u00f3n de aguas residuales, gesti\u00f3n de desechos y descontaminaci\u00f3n",
+        "F": "Construcci\u00f3n",
+        "G": "Comercio al por mayor y al por menor; reparaci\u00f3n de veh\u00edculos automotores y motocicletas",
+        "H": "Transporte y almacenamiento",
+        "I": "Actividades de alojamiento y de servicio de comidas",
+        "J": "Informaci\u00f3n y comunicaciones",
+        "K": "Actividades financieras y de seguros",
+        "L": "Actividades inmobiliarias",
+        "M": "Actividades profesionales, cient\u00edficas y t\u00e9cnicas",
+        "N": "Actividades de servicios administrativos y de apoyo",
+        "O": "Administraci\u00f3n p\u00fablica y defensa; planes de seguridad social de afiliaci\u00f3n obligatoria",
+        "P": "Ense\u00f1anza",
+        "Q": "Actividades de atenci\u00f3n de la salud humana y de asistencia social",
+        "R": "Actividades art\u00edsticas, de entretenimiento y recreativas",
+        "S": "Otras actividades de servicios",
+        "T": "Actividades de los hogares como empleadores; actividades no diferenciadas de los hogares como productores de bienes y servicios para uso propio",
+        "U": "Actividades de organizaciones y \u00f3rganos extraterritoriales",
+        "999": "Respuesta no codificable",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p44_lug_trab": {
+        "1": "En su comuna, en la vivienda donde reside",
+        "2": "En su comuna, fuera de la vivienda donde reside",
+        "3": "En otra comuna",
+        "4": "En otro pa\u00eds",
+        "5": "Varias comunas o pa\u00edses",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p44_lug_trab_esp": {
+        "2:16305": "Ver diccionario c\u00f3digos territoriales espec\u00edficos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p45_medio_transporte": {
+        "1": "Auto particular",
+        "2": "Transporte p\u00fablico (bus, micro, metro, tren, taxi, colectivo)",
+        "3": "Caminando",
+        "4": "Bicicleta (incluye scooter)",
+        "5": "Motocicleta",
+        "6": "Caballo, lancha o bote",
+        "7": "Otro",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p46a_tot_hijs_nac": {
+        "0:23": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p46b_hijas_nac": {
+        "0:22": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p46c_hijos_nac": {
+        "0:22": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p47a_tot_hijs_sobrev": {
+        "0:22": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p47b_hijas_sobrev": {
+        "0:15": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p47c_hijos_sobrev": {
+        "0:19": "V\u00e1lidos",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p48_anio_nac_uh": {
+        "1934:2024": "V\u00e1lidos",
+        "-99": "No responde",
+        "null": "No aplica"
+    },
+    "p48_mes_nac_uh": {
+        "1": "Enero",
+        "2": "Febrero",
+        "3": "Marzo",
+        "4": "Abril",
+        "5": "Mayo",
+        "6": "Junio",
+        "7": "Julio",
+        "8": "Agosto",
+        "9": "Septiembre",
+        "10": "Octubre",
+        "11": "Noviembre",
+        "12": "Diciembre",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "div_genero": {
+        "1": "S\u00ed",
+        "2": "No",
+        "3": "No clasificable",
+        "-66": "Valor suprimido por anonimizaci\u00f3n",
+        "null": "No aplica"
+    },
+    "comuna_bajo_umbral": {
+        "1": "S\u00ed",
+        "2": "No"
+    }
+}

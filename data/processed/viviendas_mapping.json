@@ -1,0 +1,153 @@
+{
+    "area": {
+        "1": "Urbano",
+        "2": "Rural"
+    },
+    "tipo_operativo": {
+        "1": "Persona en situaci\u00f3n de calle",
+        "2": "Vivienda particular",
+        "3": "Vivienda colectiva"
+    },
+    "p2_tipo_vivienda": {
+        "1": "Casa",
+        "3": "Departamento",
+        "5": "Vivienda tradicional ind\u00edgena (ruka u otras)",
+        "6": "Pieza en casa antigua o en conventillo",
+        "7": "Mediagua, mejora, vivienda de emergencia, rancho o choza",
+        "8": "M\u00f3vil (carpa, casa rodante o similar)",
+        "9": "Otro tipo de vivienda particular",
+        "null": "No aplica"
+    },
+    "p3a_estado_ocupacion": {
+        "1": "Ocupada",
+        "2": "Desocupada",
+        "null": "No aplica"
+    },
+    "p3b_estado_ocupacion": {
+        "1": "Moradores presentes",
+        "2": "Moradores ausentes",
+        "6": "Otras razones de no entrevista",
+        "7": "En venta o arriendo",
+        "8": "Vivienda de temporada (veraneo o de uso temporal)",
+        "9": "Abandonada",
+        "10": "Otra raz\u00f3n de desocupaci\u00f3n",
+        "null": "No aplica"
+    },
+    "p4a_mat_paredes": {
+        "1": "Hormig\u00f3n armado",
+        "2": "Alba\u00f1iler\u00eda: bloque de cemento, ladrillo o piedra",
+        "3": "Tabique forrado por ambas caras (madera o acero)",
+        "4": "Tabique sin forro interior (madera u otro)",
+        "5": "Adobe, barro, pirca, quincha u otro material artesanal",
+        "6": "Materiales precarios o de desecho: cart\u00f3n, sacos, trozos de latas o pl\u00e1sticos, etc.",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p4b_mat_techo": {
+        "1": "Tejas o tejuelas de arcilla, met\u00e1licas, de cemento, de madera, asf\u00e1lticas o pl\u00e1sticas",
+        "2": "Losa hormig\u00f3n",
+        "3": "Planchas met\u00e1licas de zinc, cobre, etc",
+        "4": "Planchas de fibrocemento tipo pizarre\u00f1o",
+        "5": "Fonolita o plancha de fieltro embreado",
+        "6": "Paja, coir\u00f3n, totora o ca\u00f1a",
+        "7": "Materiales precarios o de desecho: cart\u00f3n, sacos, trozos de latas o pl\u00e1sticos, etc",
+        "8": "Sin cubierta s\u00f3lida de techo",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p4c_mat_piso": {
+        "1": "Parquet, piso flotante, cer\u00e1mico, madera, alfombra, flexit, cubrepiso u otro similar; sobre radier o vigas de madera",
+        "2": "Radier sin revestimiento",
+        "3": "Baldosa de cemento",
+        "4": "Capa de cemento sobre tierra",
+        "5": "Tierra",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p5_num_dormitorios": {
+        "0": 0,
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6 o m\u00e1s",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p6_fuente_agua": {
+        "1": "Red p\u00fablica",
+        "2": "Pozo o noria",
+        "3": "Cami\u00f3n aljibe",
+        "4": "R\u00edo, vertiente, estero, canal, lago, agua lluvia, etc.",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p7_distrib_agua": {
+        "1": "Con llave dentro de la vivienda",
+        "2": "Con llave dentro del sitio, pero fuera de la vivienda",
+        "3": "No tiene sistema, la acarrea",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p8_serv_hig": {
+        "1": "Dentro de la vivienda, conectado a una red de alcantarillado",
+        "2": "Fuera de la vivienda, conectado a una red de alcantarillado",
+        "3": "Conectado a una fosa s\u00e9ptica",
+        "4": "Conectado a pozo negro (letrina sanitaria o caj\u00f3n)",
+        "5": "En un caj\u00f3n sobre acequia o canal",
+        "6": "En un caj\u00f3n conectado a otro sistema",
+        "7": "Ba\u00f1o qu\u00edmico",
+        "8": "Conectado a ba\u00f1o seco",
+        "9": "No tiene servicio higi\u00e9nico",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p9_fuente_elect": {
+        "1": "Red p\u00fablica",
+        "2": "Generador con di\u00e9sel o bencina",
+        "3": "Placa solar",
+        "4": "Energ\u00eda e\u00f3lica (viento)",
+        "5": "Otro",
+        "6": "No tiene energ\u00eda el\u00e9ctrica",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p10_basura": {
+        "1": "La recogen los servicios de aseo",
+        "2": "La entierra y/o quema",
+        "3": "La deja en terreno eriazo, quebrada o zanja",
+        "4": "La tira al r\u00edo, laguna o mar",
+        "5": "Otro",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "p11a_num_personas": {
+        "1:60": null,
+        "null": null
+    },
+    "p11b_comparte_gasto": {
+        "1": "S\u00ed",
+        "2": "No",
+        "null": null
+    },
+    "p11c_num_hogar": {
+        "2:26": null,
+        "null": null
+    },
+    "cant_hog": {
+        "0:26": null,
+        "null": "No aplica"
+    },
+    "indice_hacinamiento": {
+        "1": "Vivienda sin hacinamiento",
+        "2": "Vivienda con hacinamiento medio",
+        "3": "Vivienda con hacinamiento cr\u00edtico",
+        "-99": "No respuesta",
+        "null": "No aplica"
+    },
+    "comuna_bajo_umbral": {
+        "1": "S\u00ed",
+        "2": "No"
+    }
+}
